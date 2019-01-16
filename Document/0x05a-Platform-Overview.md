@@ -162,13 +162,13 @@ drwxrwx--x u0_a65   u0_a65            2016-01-10 09:44 shared_prefs
 - **databases**: このフォルダには、実行時にアプリによって生成されたSQLiteデータベースファイル、たとえばユーザーデータファイルが格納されます。
 - **files**: このフォルダにはアプリによって作成された通常のファイルが保存されます。
 - **lib**: このフォルダはC/C++で書かれたネイティブライブラリを格納します。これらのライブラリは、.soや.dll(x86サポート)など、いくつかのファイル拡張子のうちの1つを持つことができます。このフォルダには、アプリケーションがネイティブライブラリを持っているプラ​​ットフォーム用のサブフォルダが含まれています。
-   * armeabi: すべてのARMベースのプロセッサ用にコンパイルされたコード。
-   * armeabi-v7a: すべてのARMベースのプロセッサのバージョン7以降のコンパイル済みコード。
-   * arm64-v8a: すべての64ビットARMベースプロセッサ、バージョン8以降をベースにしたコンパイル済みコード。
-   * x86: x86プロセッサ専用のコンパイル済みコード。
-   * x86_64: x86_64プロセッサ専用のコンパイル済みコード。
-   * mips: MIPSプロセッサ用のコンパイル済みコード。
--  **shared_prefs**: このフォルダは[SharedPreferences APIs](https://developer.android.com/training/basics/data-storage/shared-preferences.html)で保存された値を格納するXMLファイルを含みます。
+   * armeabi: すべてのARMベースのプロセッサ用にコンパイルされたコード。  
+   * armeabi-v7a: すべてのARMベースのプロセッサのバージョン7以降のコンパイル済みコード。  
+   * arm64-v8a: すべての64ビットARMベースプロセッサ、バージョン8以降をベースにしたコンパイル済みコード。  
+   * x86: x86プロセッサ専用のコンパイル済みコード。  
+   * x86_64: x86_64プロセッサ専用のコンパイル済みコード。  
+   * mips: MIPSプロセッサ用のコンパイル済みコード。  
+-  **shared_prefs**: このフォルダは[SharedPreferences APIs](https://developer.android.com/training/basics/data-storage/shared-preferences.html)で保存された値を格納するXMLファイルを含みます。  
 
 #### Linux UID/GID for Normal Applications
 
