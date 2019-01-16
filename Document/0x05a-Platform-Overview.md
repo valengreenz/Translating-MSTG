@@ -161,7 +161,7 @@ drwxrwx--x u0_a65   u0_a65            2016-01-10 09:44 shared_prefs
 - **code_cache**: キャッシュされたコードを格納するために設計されたファイルシステムのアプリケーション固有のキャッシュディレクトリの場所です。Lollipop以降のAndroidバージョンを実行しているデバイスでは、アプリまたはプラットフォーム全体がアップグレードされると、システムはこの場所に保存されているファイルをすべて削除します。
 - **databases**: このフォルダには、実行時にアプリによって生成されたSQLiteデータベースファイル、たとえばユーザーデータファイルが格納されます。
 - **files**: このフォルダにはアプリによって作成された通常のファイルが保存されます。
-- **lib**: このフォルダはC/C++で書かれたネイティブライブラリを格納します。これらのライブラリは、.soや.dll(x86サポート)など、いくつかのファイル拡張子のうちの1つを持つことができます。このフォルダには、アプリケーションがネイティブライブラリを持っているプラ​​ットフォーム用のサブフォルダが含まれています。
+- **lib**: このフォルダはC/C++で書かれたネイティブライブラリを格納します。これらのライブラリは、.soや.dll(x86サポート)など、いくつかのファイル拡張子のうちの1つを持つことができます。このフォルダには、アプリケーションがネイティブライブラリを持っているプラ​​ットフォーム用のサブフォルダが含まれています。  
    * armeabi: すべてのARMベースのプロセッサ用にコンパイルされたコード。  
    * armeabi-v7a: すべてのARMベースのプロセッサのバージョン7以降のコンパイル済みコード。  
    * arm64-v8a: すべての64ビットARMベースプロセッサ、バージョン8以降をベースにしたコンパイル済みコード。  
@@ -610,5 +610,5 @@ Androidアプリケーションの攻撃面は、アプリケーションをリ�
   - [Android Network APIs](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md#android-network-apis "Android Network APIs") .
 - すべてのローカルデータを安全に保存するか、信頼できないデータをストレージからロードするかを確認します。以下の資料を参照してください。
   - [Data Storage on Android](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md#data-storage-on-android "Data Storage on Android").
-- 危殆化した環境、再パッケージ化、その他のローカルの攻撃から地震を保護できているかどうかを確認します。以下の資料を参照してください。
+- 危殆化した環境、再パッケージ化、その他のローカルの攻撃から自身を保護できているかどうかを確認します。以下の資料を参照してください。
   - [Android Anti-Reversing Defenses](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md#android-anti-reversing-defenses "Android Anti-Reversing Defenses")
